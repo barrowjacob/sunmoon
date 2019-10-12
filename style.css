@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: SansSerif;
+}
+section {
+    height: 100vh;
+    background: rgb(199, 199, 199);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.dark {
+    color: rgb(199, 199, 199);
+}
