@@ -30,6 +30,6 @@ darkMode.addEventListener('click', () => {
             backgroundColor: toggle ? 'rgb(199, 199, 199)' : 'rgb(22, 22, 22)',
             color: toggle ? "rgb(22, 22, 22)" : "rgb(255, 255, 255)",
         }, '-= 700'),
-
+//here is a comment
     toggle = !toggle;
 });
